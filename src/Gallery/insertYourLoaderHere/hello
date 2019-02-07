@@ -1,0 +1,24 @@
+import React from "react"
+import ContentLoader from "react-content-loader"
+
+const __NAME_OF_LOADER__ = props => {
+  return (
+    <ContentLoader
+      height={40}
+      width={1060}
+      speed={2}
+      primaryColor="#d9d9d9"
+      secondaryColor="#ecebeb"
+      {...props}
+    >
+    // your loader
+    </ContentLoader>
+  )
+}
+
+__NAME_OF_LOADER__.metadata = {
+  name: asd, // My name
+  github: shetty, // Github username
+  description: , // Little tagline
+  filename: __WRITEHERE__ // filename of your loader
+}
